@@ -18,4 +18,4 @@ The year 1866 was signalised by a remarkable incident, a mysterious and puzzling
 
 For some time past vessels had been met by "an enormous thing," a long object, spindle-shaped, occasionally phosphorescent, and infinitely larger and more rapid in its movements than a whale.
 
-[•	From Project Gutenberg](http://www.gutenberg.org/ebooks/164)
+[	From Project Gutenberg](http://www.gutenberg.org/ebooks/164)

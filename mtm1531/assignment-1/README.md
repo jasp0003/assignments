@@ -37,7 +37,7 @@ For some time past vessels had been met by "an enormous thing," a long object, s
 ## Other books by Jules Verne ##
 
 <ul>
- http://en.wikipedia.org/wiki/A_Journey_to_the_Center_of_the_Earth/  
+1. [1.	A Journey to the Centre of the Earth](http://en.wikipedia.org/wiki/A_Journey_to_the_Center_of_the_Earth)
 <li>[Around the World in Eighty Days](http://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days)</li>
 </ul>
 

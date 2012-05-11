@@ -6,7 +6,7 @@
 
 [Wikipedia entry](http://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Sea)
 
--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 
 
@@ -38,7 +38,7 @@ For some time past vessels had been met by "an enormous thing," a long object, s
 
 <ul>
 <li>[A Journey to the Centre of the Earth](http://en.wikipedia.org/wiki/A_Journey_to_the_Center_of_the_Earth)</li>
-<li><p>Magic</p></li>
+<li>[Around the World in Eighty Days](http://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days)</li>
 </ul>
 
 

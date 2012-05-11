@@ -10,8 +10,8 @@ Twenty Thousand Leagues Under the Sea is a classic science fiction novel by Fren
 
 ## Excerpt ##
 
-Part One
-Chapter I: A Shifting Reef
+Part One 
+<br>Chapter I: A Shifting Reef</br>
 
 
 The year 1866 was signalised by a remarkable incident, a mysterious and puzzling phenomenon, which doubtless no one has yet forgotten. Not to mention rumours which agitated the maritime population and excited the public mind, even in the interior of continents, seafaring men were particularly excited. Merchants, common sailors, captains of vessels, skippers, both of Europe and America, naval officers of all countries, and the Governments of several States on the two continents, were deeply interested in the matter.

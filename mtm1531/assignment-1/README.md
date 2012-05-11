@@ -31,4 +31,10 @@ Jules Gabriel Verne (February 8, 1828 – March 24, 1905) was a French author wh
 
 ## Other books by Jules Verne ##
 
+<ul>
+<li><p>[A Journey to the Centre of the Earth](http://en.wikipedia.org/wiki/A_Journey_to_the_Center_of_the_Earth)</p></li>
+<li><p>Magic</p></li>
+</ul>
+
+
 

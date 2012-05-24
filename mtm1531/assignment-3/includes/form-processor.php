@@ -23,22 +23,23 @@ if($_SERVER['REQUEST_METHOD']== 'POST') {
 		$errors['email']=true;
 	}
 	
-	 if (strlen($username) < 1 || strlen($username) > 25)
+	 if (strlen($username) < 1 || strlen($username) > 25){
     $errors['username'] = true;
+	 }
 	
 	if(empty($password)) {
 		$errors['password']=true;
 	}	
 	
-	  if (!in_array($language, array('en', 'fr', 'es')))
+	  if (!in_array($language, array('en', 'fr', 'es'))){
     $errors['language'] = true;
-	
-	  if (!isset($_POST['acceptterms']))
+	  }
+	  if (!isset($_POST['acceptterms'])){
     $errors['acceptterms'] = true;
-	
+	  }
 	  if (empty($errors)) {
     $display_thanks = true;
-    mail($email, 'Thanks for registering', 'Thanks for registering', "From: Prabhjot Jaspal <jasp0003@algonquinlive.com>\r\n");
+    mail($email, 'Thanks for registering', 'Thanks for registering', 'From: Prabhjot Jaspal <jasp0003@algonquinlive.com>\r\n');
   }
 	
 }

@@ -39,7 +39,7 @@ if($_SERVER['REQUEST_METHOD']== 'POST') {
 	  }
 	  if (empty($errors)) {
     $display_thanks = true;
-    mail($email, 'Thanks for registering', 'Thanks for registering', 'From: Prabhjot Jaspal <jasp0003@algonquinlive.com>\r\n');
+    mail($email, 'Thanks for registering', 'Thanks for registering', "From: Prabhjot Jaspal <jasp0003@algonquinlive.com>\r\n");
   }
 	
 }

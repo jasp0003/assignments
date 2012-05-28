@@ -44,7 +44,7 @@ require_once 'includes/form-processor.php';
 </div>
 
 <fieldset>
-    <legend>Preferred language</legend>
+    <legend class="txt">Preferred language</legend>
     <?php if (isset($errors['language'])) : ?><strong>Select your preferred language</strong><?php endif; ?>
     <input type="radio" id="lang-en" name="language" value="en"<?php if ($language == 'en') { echo ' checked'; } ?>>
     <label for="lang-en">English</label>
@@ -55,7 +55,7 @@ require_once 'includes/form-processor.php';
   </fieldset>
 
 <div>
-<label for="notes">Notes<?php if(isset($errors['notes'])): ?><strong class="error">Your note must be 5 to 100 characters long.</strong><?php endif;?></label>
+<label for="notes">Notes</label>
 <textarea id="notes" name="notes" ><?php echo $notes;?></textarea>
 </div>
 

@@ -1,7 +1,36 @@
 @charset "utf-8";
+
+html
+body
+
+div{
+	background-color: #CCF;
+	width: 320px;
+	height:50px;
+	margin: 0px;
+	padding:20px;
+	
+}
+
 .error{
 	font-size:18px;
 	color:#F00;
+}
+
+fieldset{
+	width:336px;
+	background-color:#9FC;
+	height:60px;
+	margin-bottom:0px;
+	margin-top:-15px;
+	padding-top: 1px;
+
+	border: 0;
+	
+	
+}
+.txt{
+margin-top:1em;	
 }
 /* CSS Document */
 

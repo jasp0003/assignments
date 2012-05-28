@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.function{
+	background-color:#FCC;
+	width: 70px;
+	height:30px;
+}
+	.button{
+		color:#0CF;
+	}

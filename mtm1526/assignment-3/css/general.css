@@ -1,0 +1,28 @@
+body {
+	font: normal 100%/1.5 sans-serif;
+}
+
+#circle {
+	height: 200px;
+	left: 50%;
+	margin: -110px 0 0 -110px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+
+	background-color: #bad600;
+	border: 10px solid #000;
+	border-radius: 110px;
+
+	font-size: 8em;
+	font-weight: bold;
+	line-height: 175px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#hide-show {
+	display: absolute;
+	
+	
+}

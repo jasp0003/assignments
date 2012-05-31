@@ -9,6 +9,7 @@ jQuery(function ($) {
 
 		e.preventDefault();
 
+
 		if (color) {
 			$circle.css($property.val(), color);
 		}

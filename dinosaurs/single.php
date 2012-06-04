@@ -14,6 +14,7 @@ $sql = $db->prepare('
    FROM dinosaurs
    WHERE id = :id
    
+   
  ');
  
  // bindValue(placeholder, variable, datatype)
@@ -40,5 +41,7 @@ $sql = $db->prepare('
       <dt>In Jurassic Park</dt>
       <dd><?php echo $results['in_jurassic_park']; ?></dd>
       </dl>
+      
+      <a href="delete.php?id=<?php echo $id; ?>">Delete</a>
 </body>
 </html>

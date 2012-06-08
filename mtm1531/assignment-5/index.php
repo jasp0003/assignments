@@ -9,7 +9,6 @@ $sql = $db->query('
 ');
 
 // Display the last error created by our database
-
 $results = $sql->fetchAll();
 
 

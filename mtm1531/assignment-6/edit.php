@@ -3,7 +3,7 @@
   $errors = array();
 $id = filter_input(INPUT_GET, 'id',  FILTER_SANITIZE_NUMBER_INT);  
 $movie_title = filter_input(INPUT_POST, 'movie_title', FILTER_SANITIZE_STRING);
-$release_date= filter_input(INPUT_POST,'release_date',FILTER_SANITIZE_NUMBER_STRING);
+$release_date= filter_input(INPUT_POST,'release_date',FILTER_SANITIZE_STRING);
 $director = filter_input(INPUT_POST, 'director', FILTER_SANITIZE_STRING);
 $actor = filter_input(INPUT_POST, 'actor', FILTER_SANITIZE_STRING);
 $actress = filter_input(INPUT_POST, 'actress', FILTER_SANITIZE_STRING);

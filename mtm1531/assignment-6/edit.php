@@ -41,9 +41,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	    UPDATE movies
 		SET movie_title = :movie_title
 		    ,release_date = :release_date
-			, director = : director
-			,actor = : actor
-			,actress = : actress
+			, director = :director
+			,actor = :actor
+			,actress = :actress
 			WHERE id = :id
 		');
 	  $sql->bindValue(':movie_title', $movie_title, PDO::PARAM_STR);

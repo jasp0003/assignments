@@ -21,6 +21,8 @@ $results = $sql->fetchAll();
 </head>
 <body>
 
+   <a href="add.php">Add a Dinosaur</a>
+
     <?php foreach ($results as $dino): ?>
     <h2>
         <a href="single.php?id=<?php echo $dino['id']; ?>">

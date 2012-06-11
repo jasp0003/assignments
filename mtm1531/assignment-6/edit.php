@@ -71,6 +71,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
    $movie_title = $results['movie_title'];
    $release_date = $results['release_date'];
    $director = $results['director'];
+   $actor = $results['actor'];
+   $actress = $results['actress'];
+   
 }
 
 

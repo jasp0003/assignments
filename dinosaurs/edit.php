@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
 <html>
 <head>
 <meta charset="utf-8">
-<title>Add New Dinosaur</title>
+<title>Edit Dinosaur</title>
 </head>
 <body>
 
@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
          
          </div>
          
-         <button type="submit">Add</button>
+         <button type="submit">Save</button>
    
    </form>
 

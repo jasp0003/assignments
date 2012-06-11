@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	    UPDATE movies
 		SET movie_title = :movie_title
 		    ,release_date = :release_date
-			, director = :director
+			,director = :director
 			,actor = :actor
 			,actress = :actress
 			WHERE id = :id

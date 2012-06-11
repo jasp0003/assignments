@@ -1,7 +1,7 @@
 <?php
 
 $dino_name = filter_input(INPUT_POST, 'dino_name', FILTER_SANITIZE_STRING);
-$loves_meat= filter_input(INPUT_POST,'loves_meat',FILTER_SANITIZE_NUMBER_);
+$loves_meat= filter_input(INPUT_POST,'loves_meat',FILTER_SANITIZE_NUMBER_INT);
 $in_jurassic_park = (isset($_POST['in_jurassic_park'])) ? 1: 0;
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {

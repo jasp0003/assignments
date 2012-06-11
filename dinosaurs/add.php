@@ -5,7 +5,7 @@ $loves_meat= filter_input(INPUT_POST,'loves_meat',FILTER_SANITIZE_NUMBER_INT);
 $in_jurassic_park = (isset($_POST['in_jurassic_park'])) ? 1: 0;
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
-	if (strlen($dino_name) <0 || strlen($dino_name) > 256) {
+	if (strlen($dino_name) <1 || strlen($dino_name) > 256) {
 	$errors[ 'dino_name'] = true;
   }
   

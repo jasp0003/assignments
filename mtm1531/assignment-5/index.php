@@ -9,6 +9,7 @@ $sql = $db->query('
 ');
 
 // Display the last error created by our database
+var_dump($db->errorInfo());
 $results = $sql->fetchAll();
 
 
@@ -17,8 +18,11 @@ $results = $sql->fetchAll();
 <head>
 <meta charset="utf-8">
 <title>Movies</title>
+<link href="css/general.css" rel="stylesheet">
 </head>
 <body>
+
+     <a href="add.php">Add a Movie</a>
 
     <?php foreach ($results as $movie): ?>
     <h2>

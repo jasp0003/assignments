@@ -14,6 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	$errors[ 'movie_title'] = true;
   }
   
+ 
   if (strlen($release_date) <1 || strlen($release_date) > 256) {
 	$errors[ 'release_date'] = true;
   }
@@ -32,11 +33,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	$errors[ 'actress'] = true;
   }
   
- 
-
   if (empty($errors)) {
 	  require_once 'includes/db.php';
-	  
+
 	  $sql = $db->prepare('
 	    UPDATE movies
 		SET movie_title = :movie_title
@@ -59,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
 } else {
 	
    $sql = $db->prepare('
-  SELECT id, movie_title, release_date, director, actor, actress
+  SELECT  movie_title, release_date, director, actor, actress
     FROM movies
    WHERE id = :id
    
@@ -86,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
 </head>
 <body>
 
-   <form method="post" action="add.php">
+   <form method="post" action="edit.php?id=<?php echo $id; ?>">
       
       <div>
       
@@ -100,18 +99,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
       
        </div>
        
-      
-       <input type="radio" id="release date" name="release_date" value="1" <?php if ($release_date ==1) : ?>checked<?php endif; ?>>
-       <label for="release date">release date</label>
+      <label for="release_date">release date</label>
+      <input id="release_date" name="release_date" required value="<?php echo $release_date; ?>">
        
-       <input type="radio" id="director" name="director" value="0"  <?php if ($director == 0) : ?>checked<?php endif; ?>>
        <label for="director">director</label>
+      <input id="director" name="director" required value="<?php echo $director; ?>">
        
-        <input type="radio" id="actor" name="actor" value="0"  <?php if ($actor == 0) : ?>checked<?php endif; ?>>
        <label for="actor">actor</label>
+      <input id="actor" name="actor" required value="<?php echo $actor; ?>">
        
-        <input type="radio" id="actress" name="actress" value="0"  <?php if ($actress == 0) : ?>checked<?php endif; ?>>
        <label for="actress">actress</label>
+      <input id="actress" name="actress" required value="<?php echo $actress; ?>">
+       
        
        
        

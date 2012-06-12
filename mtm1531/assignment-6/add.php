@@ -74,19 +74,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
       
        </div>
        
-      
-       <input type="radio" id="release date" name="release_date" value="1" <?php if ($release_date ==1) : ?>checked<?php endif; ?>>
-       <label for="release date">Release Date</label>
+      <label for="release_date">release date</label>
+      <input id="release_date" name="release_date" required value="<?php echo $release_date; ?>">
        
-       <input type="radio" id="director" name="director" value="0"  <?php if ($director == 0) : ?>checked<?php endif; ?>>
-       <label for="director">Director</label>
+       <label for="director">director</label>
+      <input id="director" name="director" required value="<?php echo $director; ?>">
        
-         <input type="radio" id="actor" name="actor" value="0"  <?php if ($actor == 0) : ?>checked<?php endif; ?>>
-       <label for="actor">Actor</label>
-     
-     
-       <input type="radio" id="actress" name="actress" value="0"  <?php if ($actress == 0) : ?>checked<?php endif; ?>>
-       <label for="actress">Actress</label>
+       <label for="actor">actor</label>
+      <input id="actor" name="actor" required value="<?php echo $actor; ?>">
+       
+       <label for="actress">actress</label>
+      <input id="actress" name="actress" required value="<?php echo $actress; ?>">
+       
      
      
        

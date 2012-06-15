@@ -45,12 +45,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			,actress = :actress
 			WHERE id = :id
 		');
+	  $sql->bindValue(':id', $id, PDO::PARAM_INT);
 	  $sql->bindValue(':movie_title', $movie_title, PDO::PARAM_STR);
 	  $sql->bindValue(':release_date', $release_date, PDO::PARAM_STR);
 	  $sql->bindValue(':director', $director, PDO::PARAM_STR);
 	  $sql->bindValue(':actor', $actor, PDO::PARAM_STR);
 	  $sql->bindValue(':actress', $actress, PDO::PARAM_STR);
 	  $sql->execute();
+	  
 	  
 	  header('Location: index.php');
 	  exit;

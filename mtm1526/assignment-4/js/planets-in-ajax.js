@@ -3,22 +3,22 @@ $(document).ready(function() {
 	
 	
 	$('#gethtml').on('click',function(){
-		$('fillme').load('earth.html');
+		$('fill').load('earth.html');
 		
 	});
 	
 	$('#gethtml').on('click',function(){
-		$('fillme').load('mars.html');
+		$('fill').load('mars.html');
 		
 	});
 	
 	$('#gethtml').on('click',function(){
-		$('fillme').load('jupiter.html');
+		$('fill').load('jupiter.html');
 		
 	});
 	
 	$('#gethtml').on('click',function(){
-		$('fillme').load('pluto.html');
+		$('fill').load('pluto.html');
 		
 	});
 	

@@ -1,7 +1,6 @@
 $(document).ready(function() {
 	
 	
-	
 	$('#gethtml').on('click',function(){
 		$('fill').load('earth.html');
 		

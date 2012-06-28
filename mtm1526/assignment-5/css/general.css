@@ -1,0 +1,120 @@
+
+html
+body
+
+div{
+	background-color: #9C6;
+	width: 320px;
+	
+	margin: 0px;
+	padding:20px;
+	
+}
+
+
+
+fieldset{
+	width:336px;
+	background-color:#9FC;
+	height:60px;
+	margin-bottom:0px;
+	margin-top:-15px;
+	padding-top: 1px;
+    border: 0;
+	
+	
+}
+
+
+.error{
+	font-size:18px;
+	color:#F00;
+}
+
+
+.txt{
+margin-top:1em;	
+}
+
+
+
+
+
+.user-available {
+	font-size: 1.125em;
+
+}
+
+.user-available:before {
+	content:"✔";
+}
+
+.user-available[data-status="unchecked"]{
+	display: none;
+}
+
+.user-available[data-status="available"] {
+	color: #090;
+}
+
+.user-available[data-status="unavailable"] {
+	color: #f33;
+}
+
+.user-available[data-status="unavailable"]:before {
+	content:"✖";
+}
+
+
+.user-available {
+	font-size: 1.125em;
+
+}
+
+
+
+
+
+.email address-available:before {
+	content:"✔";
+}
+
+.email address-available[data-status="unchecked"]{
+	display: none;
+}
+
+.email address-available[data-status="available"] {
+	color: #090;
+}
+
+.email address-available[data-status="unavailable"] {
+	color: #f33;
+}
+
+.email address-available[data-status="unavailable"]:before {
+	content:"✖";
+}
+
+
+
+
+
+
+.pass-reqs{
+	list-style-type: none;
+}
+
+.pass-reqs li:before{
+	color: #f33;
+	font-size: 1.125em;
+	content:"✖";
+}
+
+.pass-reqs li[data-state="achieved"]:before {
+	color: #090;
+	content:"✔";
+}
+
+
+
+

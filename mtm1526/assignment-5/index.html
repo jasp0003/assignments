@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JS - Form Validation</title>
+		<link href="css/general.css" rel="stylesheet">
+	</head>
+	<body>
+		<form>
+        
+			<div>
+				<label for="username">Username</label>
+				<input id="username" name="username" required>
+				<strong class="user-available" data-status="unchecked">Available</strong>
+             </div>
+             <div>
+                <label for="email address">Email Address</label>
+				<input id="email address" name="email address" required>
+				<strong class="email address-available" data-status="unchecked"></strong>
+			  </div>
+             <div>
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" required>
+				
+				<ul class="pass-reqs">
+					<li class="pass-length">At least 6 characters</li>
+					<li class="pass-lower">1 lowercase letter</li>
+					<li class="pass-upper">1 uppercase letter</li>
+					<li class="pass-num">1 number</li>
+					<li class="pass-symbol">1 symbol</li>
+				</ul>
+			</div>
+             <div>
+             
+				<label for="city">City</label>
+				<input id="city" name="city" required>
+				<strong class="city-available" data-status="unchecked"></strong>
+             </div>
+             <div>
+				<label for="country">Country</label>
+				<strong class="country-available" data-status="unchecked"></strong>
+                
+                <input type="radio" id="canada" name="canada" value="canada">
+				<label for="canada">Canada</label>
+
+                <input type="radio" id="us" name="us" value="us">
+                <label for="us">Us</label>
+                   </div>
+                  <div id="info">  </div>
+              
+
+			<button type="submit">Submit</button>
+	
+		</form>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="js/final-form-validation.js"></script>
+	</body>
+</html>

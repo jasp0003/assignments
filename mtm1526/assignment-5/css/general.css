@@ -4,7 +4,7 @@ body
 
 div{
 	background-color: #9C6;
-	width: 320px;
+	width: 350px;
 	
 	margin: 0px;
 	padding:20px;
@@ -12,9 +12,29 @@ div{
 }
 
 
+div .canada{
+	background-color: #9C6;
+	width:200px;
+	
+	margin-leftt: 5px;
+	paddingleft:5px;
+	
+}
+
+div .us{
+	background-color: #9C6;
+	width:200px;
+	
+	margin-leftt: 5px;
+	paddingleft:5px;
+	
+}
+
+
+
 
 fieldset{
-	width:336px;
+	
 	background-color:#9FC;
 	height:60px;
 	margin-bottom:0px;

@@ -55,15 +55,55 @@ $(document).ready(function(){
 		}
 	});
 	
+	
+	
+	
+	
+	$('#email address').on('keyup', function(ev) {
+		var emailaddress = $(this).val();
+		
+		if( emailaddress.length > 5) {
+			 emailaddressReqs++;
+			$('.email-length').attr('data-state', 'achieved');
+		}
+		
+		if( emailaddress.match(/[a-z]/)){
+			 emailaddressReqs++;
+			$('.email-lower').attr('data-state', 'achieved');
+		}
+		
+		if(emailaddress.match(/[A-Z]/)){
+			passwordReqs++;
+			$('.email-upper').attr('data-state', 'achieved');
+		}
+		
+		if(emailaddress.match(/[0-9]/)){
+			passwordReqs++;
+			$('.email-num').attr('data-state', 'achieved');
+		}
+		
+		if(emailaddress.match(/[^a-zA-Z0-9]/)){
+			passwordReqs++;
+			$('.email-symbol').attr('data-state', 'achieved');
+		}
+	});
+	
+	
+	
+	
+	
+	
+	
+	
 		$('#canada').on('click',function(){
-		$('info').load('canada.html');
+		$('#info').load('canada.html');
 		
 	});
 	
-	});
+	
 	
 		$('#us').on('click',function(){
-		$('info').load('us.html');
+		$('#info').load('us.html');
 		
 	});
 	$('#form').on('submit', function (ev) {
@@ -71,3 +111,4 @@ $(document).ready(function(){
 			ev.preventDefault();
 		}
 	});
+});
